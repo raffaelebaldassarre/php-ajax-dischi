@@ -10,9 +10,8 @@
 </main>
         </div>
 
-        <!-- con cdn funziona, con import no -->
-        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="../src/app.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+        <script src="../dist/js/app.js"></script>
     </body>
 </html>

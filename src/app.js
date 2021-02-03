@@ -1,10 +1,10 @@
-// import Vue from "vue";
-// import axios from "axios";
+import Vue from "vue";
+import axios from "axios";
 
 let app = new Vue({
   el: "#app",
   data: {
-    albums: [],
+    albums: "",
   },
   mounted() {
     axios.get("../templates/db_Api.php").then((response) => {
