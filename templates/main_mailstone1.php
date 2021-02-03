@@ -8,7 +8,7 @@
               <span class="year"><?php echo $value['year']?></span>
             </div>
         <?php } ?>
-        </main>
+</main>
       </div>
 
 </body>

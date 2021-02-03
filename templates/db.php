@@ -71,6 +71,5 @@ $database = [
         "genre" => "Pop",
         "year" => "1987"
     ]
-]
+];
 
-?>

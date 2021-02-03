@@ -7,7 +7,22 @@
   \********************/
 /***/ (() => {
 
+// import Vue from "vue";
+// import axios from "axios";
+var app = new Vue({
+  el: "#app",
+  data: {
+    albums: []
+  },
+  mounted: function mounted() {
+    var _this = this;
 
+    axios.get("../templates/db_Api.php").then(function (response) {
+      var data = response.data;
+      _this.albums = data;
+    });
+  }
+});
 
 /***/ }),
 
